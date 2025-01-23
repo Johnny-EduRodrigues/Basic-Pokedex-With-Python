@@ -1,9 +1,7 @@
 pokedex = {}
 
-
-
 def adicionarPokemon():
-    global quantidade_pokemon
+
     nome = input("Nome do pokémon: ").capitalize()
     tipo = input("Tipo do pokémon: ").capitalize()
     while True:
