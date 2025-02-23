@@ -15,7 +15,6 @@ def adicionarPokemon():
     
     pokedex[numero] = {"Nome": nome,"Tipo": tipo}
     print(f"{nome} foi adicionado a pokédex no número {numero}")
-    quantidade_pokemon += 1
     
 def buscarPokemon():
     number = int(input("Que número da pokédex você deseja ver? "))
